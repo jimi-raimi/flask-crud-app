@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:blanchedalmond;
+    
+}
+
+nav {
+    background-color: #222;
+    padding: 15px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: yellow;
+}
+. {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px
+}
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+}
+.pengenalan, .matlamat, .skillHobby {
+    background-color: lightgoldenrodyellow;
+    border-color: black;
+    border-radius: 10px;
+    border-style:groove;
+    margin: 20px;
+    text-align: center;
+}
+.skillHobby {
+    align-content: center;
+}
+.pengenalan:hover, .matlamat:hover, .skillHobby:hover {
+    background-color: yellow;
+}
+footer {
+    text-align: center;
+    color: grey;
+}
+
+.dark-mode {
+    background-color: #111;
+    color: #f4f4f4;
+}
+
+button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color:peru;
+    border-color:white;
+}
+
+button:disable {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color:antiquewhite;
+
+}
+
+#userList {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#userList li {
+    margin-bottom: 6px;
+}
